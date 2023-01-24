@@ -8,14 +8,14 @@
     padding: 0;
 }
 .home-container{
-    
+    background-color: #EEEAE9;
 }
 .nav-container{
     width: 89%;
     margin: auto;
-    margin-top: 1em;
     margin-right: 50px;
     padding: 5px 0 5px;
+    padding-top: 1em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,13 +26,13 @@
     position: relative;
     margin: 0 5px;
     text-align: justify;
-    position: relative;
-    right: 28px;
+    right: 20px;
     font-size: 24px;
+    letter-spacing: 3px;
 }
 .cart-logo{
     position: relative;
-    max-width: 24px;
+    max-width: 30px;
     top: 6px;
 }
 a{
@@ -40,21 +40,104 @@ a{
     color: #CD7C51;
     padding: 0 10px 0 10px;
 }
+.home-button .a{
+    letter-spacing: 14%;
+}
 .home-button{
     color: black;
     font-weight: bold;
     font-size: 24px;
+    position: relative;
+    left: -38px;
+    letter-spacing: 3px;
 }
+/* I might need to change the hero section later on, I am not quite satisfied with how its coded. I feel like there
+is a better way of positioning and centering it. */
 .hero-image{
     text-align: center;
 }
 .large-image{
-width: 1282px;
-height: 855px;
-left: 79px;
-top: 114px;
-
-background: url(pawel-czerwinski-xubOAAKUwXc-unsplash.jpg);
-
+    width: 1282px;
+    height: 855px;
+    left: 79px;
+    top: 114px;
+    /* background: url(pawel-czerwinski-xubOAAKUwXc-unsplash.jpg); */
 }
-
+.section-titles{
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    padding-top: 1.5em;
+}
+.vector-container{
+    background-image: url(images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position:relative;
+    width: 100%;
+    height: 456px;
+    padding-top: 4em;
+}
+.portrait-container{
+    position: relative;
+    float: right;
+    top: 2.2em;
+    right: 4em;
+    background-color: #CACDC5;
+}
+.portrait1{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-color: #CACDC5;
+}
+.exhibit-container{
+    display: flex;
+    width: -moz-fit-content;
+}
+.exhibit-pic{
+    float: left;
+    padding: 3.5em 3.5em 2em 5.5em;
+}
+.exhibit-text-container{
+    float: right;
+    padding: 4em 10em 4em 4em;
+}
+h3{
+    font-size: 36px;
+    padding: 0.5em 0 0.3em 0;
+}
+.text1{
+    font-size: 18px;
+    padding: 0.5em 1em 0.3em 0;
+}
+.text2{
+    padding: 0.5em 1em 0.3em 0;
+}
+.text3{
+    padding: 0.5em 1em 0.3em 0;
+    color: black;
+    font-weight: bold;
+}
+.location-container{
+    padding: 4em 22em 4em 22em;
+    text-align: center;
+}
+.map1{
+    position:static;
+}
+.locate-text1{
+    float: left;
+}
+.locate-text2{
+    float: right;
+    text-align: end;
+    padding-left: 2em;
+}
+.copyright-footer{
+    text-align: center;
+    padding: 2em 2em 5em 2em;
+}
