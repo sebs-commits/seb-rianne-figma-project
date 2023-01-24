@@ -1,6 +1,6 @@
 @font-face {
     font-family: openSansDefault;
-    src: url(font_folder/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+    src: url(../font_folder/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 *{
     font-family: openSansDefault;
@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* nav bar styling */
 }
 .nav-container ul li{
     display: inline-block;
@@ -29,6 +30,7 @@
     right: 20px;
     font-size: 24px;
     letter-spacing: 3px;
+    /* nav bar styling */
 }
 .cart-logo{
     position: relative;
@@ -39,6 +41,7 @@ a{
     text-decoration: none;
     color: #CD7C51;
     padding: 0 10px 0 10px;
+    /* this is part of the navbar */
 }
 .home-button .a{
     letter-spacing: 14%;
@@ -71,7 +74,7 @@ is a better way of positioning and centering it. */
     padding-top: 1.5em;
 }
 .vector-container{
-    background-image: url(images/Vector.png);
+    background-image: url(../images/Vector.png);
     background-repeat: no-repeat;
     background-position: right;
     position:relative;
@@ -136,6 +139,8 @@ h3{
     float: right;
     text-align: end;
     padding-left: 2em;
+    position: relative;
+    right: -1.5em;
 }
 .copyright-footer{
     text-align: center;
