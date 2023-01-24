@@ -1,5 +1,60 @@
-.vector{
-    position: relative;
-    left: 231px;
-    display: flex;
+@font-face {
+    font-family: openSansDefault;
+    src: url(font_folder/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+*{
+    font-family: openSansDefault;
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    
+}
+.nav-container{
+    width: 89%;
+    margin: auto;
+    margin-top: 1em;
+    margin-right: 50px;
+    padding: 5px 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin: 0 5px;
+    text-align: justify;
+    position: relative;
+    right: 28px;
+    font-size: 24px;
+}
+.cart-logo{
+    position: relative;
+    max-width: 24px;
+    top: 6px;
+}
+a{
+    text-decoration: none;
+    color: #CD7C51;
+    padding: 0 10px 0 10px;
+}
+.home-button{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+.hero-image{
+    text-align: center;
+}
+.large-image{
+width: 1282px;
+height: 855px;
+left: 79px;
+top: 114px;
+
+background: url(pawel-czerwinski-xubOAAKUwXc-unsplash.jpg);
+
+}
+
