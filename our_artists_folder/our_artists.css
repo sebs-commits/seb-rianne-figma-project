@@ -1,0 +1,60 @@
+@font-face {
+    font-family: openSansDefault;
+    src: url(../font_folder/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    font-family: openSansDefault;
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    background-color: #EEEAE9;
+}
+.nav-container{
+    width: 89%;
+    margin: auto;
+    margin-right: 50px;
+    padding: 5px 0 5px;
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* nav bar styling */
+}
+.nav-container ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    margin: 0 5px;
+    text-align: justify;
+    right: 20px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    /* nav bar styling */
+}
+.cart-logo{
+    position: relative;
+    max-width: 30px;
+    top: 6px;
+}
+a{
+    text-decoration: none;
+    color: #CD7C51;
+    padding: 0 10px 0 10px;
+    /* this is part of the navbar */
+}
+.home-button .a{
+    letter-spacing: 14%;
+}
+.home-button{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    left: -38px;
+    letter-spacing: 3px;
+}
+.copyright-footer{
+    text-align: center;
+    padding: 2em 2em 5em 2em;
+}
