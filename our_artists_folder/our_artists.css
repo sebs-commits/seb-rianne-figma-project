@@ -58,3 +58,50 @@ a{
     text-align: center;
     padding: 2em 2em 5em 2em;
 }
+.artists-title{
+    text-align: center;
+    letter-spacing: 6.72px;
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 1.5em;
+}
+.artists-nav{
+    text-align: center;
+}
+.artists-name{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    font-size: 36px;
+    color: #000000;
+    font-weight: lighter;
+}
+.portrait-info-container{
+    margin: 0em 5em 5em 5em;
+    display: flex;
+}
+.portrait-pic{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border-color: black;
+    flex-basis: 40%;
+    padding-top: 2em;
+}
+.portrait-text{
+    float: right;
+    margin-left: 5em;
+    margin-right: 2.5em;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 1.8px;
+    max-height: 500px auto;
+}
+.artwork-container{
+    display: grid;
+    grid-template-columns: 576px 576px;
+    gap: 4em;
+    justify-content: center;
+    padding-bottom: 3em;
+    padding-top: 5em;
+}
