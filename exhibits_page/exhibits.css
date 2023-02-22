@@ -2,11 +2,16 @@
     font-family: openSansDefault;
     src: url(../font_folder/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+@font-face{
+    font-family: Roboto;
+    src: url(../font_folder/Roboto/Roboto-Regular.ttf);
+}
 *{
     font-family: openSansDefault;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #EEEAE9;
 }
 ul{
     margin: 0;
@@ -47,3 +52,93 @@ ul:nth-child(1){
     position:relative;
 }
 /* Everything above this comment is the nav bar section, everything below contains the styling the designated page */
+hr{
+    margin: 2em 0 2em 0;
+}
+.title-header{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 2em;
+}
+.exhibit-hero-pic{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 5em 4em 2em 4em;
+}
+.artist-names{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 4em 7em 4em;
+}
+.info-1{
+    flex: 2;
+
+    font-family: Roboto;
+    font-size: 24px;
+}
+.info-2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.text1{
+    padding-top: 1.5em;
+}
+.text2{
+    text-align: end;
+    font-family: Roboto;
+    padding-bottom: 1.5em;
+    font-size: 24px;
+}
+.text1, .text2{
+    line-height: 144.7%;
+}
+/* This section will be the styling for the button */
+button{
+    border-radius: 62px;
+    background-color: #C9CDC5;
+    width: 353px;
+    height: 82px;
+    font-size: 36px;
+    
+}
+.book-button{
+    background-color: #C9CDC5;
+    color: black;
+    text-align: end;
+}
+/* ================================================== */
+.upcoming-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3em 4em 7em 4em;
+    flex-wrap: wrap;
+    font-family: Roboto;
+}
+.date1, .date2{
+    font-size: 18px;
+    font-family: Roboto;
+}
+.date-info, .date-title{
+    font-family: Roboto;
+}
+.date-title{
+    font-size: 24px;
+    padding: 1em 0 1em 0;
+}
+.date-info{
+    max-width: 40%;
+    padding: 1em 0 1em 0;
+}
+.copyright-footer{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+=
