@@ -134,11 +134,15 @@ button{
     max-width: 40%;
     padding: 1em 0 1em 0;
 }
+.img-upcoming{
+    height: auto;
+    width: 100%;
+}
 .copyright-footer{
     text-align: center;
     font-family: Roboto;
     font-size: 18px;
     font-weight: lighter;
     letter-spacing: 2px;
+    margin: 3em 0 3em 0;
 }
-=

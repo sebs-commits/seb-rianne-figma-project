@@ -59,3 +59,28 @@ ul:nth-child(1){
     margin: 3em 0 3em 0;
 }
 /* Everything above this comment is the nav bar section and copyright footer, everything below contains the styling the designated page */
+.artists-title{
+    text-align: center;
+    letter-spacing: 6.72px;
+    font-size: 48px;
+    font-weight: bolder;
+    padding-top: 1.5em;
+}
+.artists-nav, .artists-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.artists-name{
+    font-size: 36px;
+    color: #000000;
+    font-weight: lighter;
+    padding: 0.5em auto 0.5em auto;
+}
+.portrait-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
